@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+.main-logo {
+  width: 10%;
+}
+.logo {
+  width: 80px;
+  height: 60px;
+  float: left;
+}
+.nav-right {
+  width: 30%;
+  height: 60px;
+  float: right;
+}
+.myCart {
+  padding: 10px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 30px;
+}
+.nav-left {
+  width: 20%;
+  height: 60px;
+  float: left;
+}
+
+.nav-link {
+  text-decoration: none;
+  float: right;
+  margin-top: 18px;
+  color: grey;
+}
+.nav-link:hover {
+  color: black;
+}
