@@ -20,12 +20,15 @@
 .myCart {
   padding: 10px;
   text-decoration: none;
-  background-color: green;
+  background-color: grey;
   color: white;
   float: right;
   position: relative;
   top: 10px;
   right: 30px;
+}
+.myCart:hover {
+  background-color: darkolivegreen;
 }
 .nav-left {
   width: 20%;
@@ -40,5 +43,5 @@
   color: grey;
 }
 .nav-link:hover {
-  color: black;
+  color: darkolivegreen;
 }

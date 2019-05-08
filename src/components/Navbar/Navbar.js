@@ -6,7 +6,7 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <div class="header">
+      <div className="header">
         <div className="main-logo">
           <Link to="/">
             <img src={logo} alt="store" className="logo" />
