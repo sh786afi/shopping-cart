@@ -2,7 +2,14 @@ import React, { Component } from "react";
 
 class Product extends Component {
   render() {
-    return <div>Hello from Product</div>;
+    const { id, title, img, price, inCart } = this.props.product;
+    return (
+      <div className="product">
+        <div className="img-container">
+          <img src={img} alr="" />
+        </div>
+      </div>
+    );
   }
 }
 
