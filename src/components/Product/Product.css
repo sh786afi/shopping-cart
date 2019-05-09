@@ -1,0 +1,21 @@
+.product {
+  width: 100%;
+  height: 100%;
+  margin-left: 7%;
+}
+img {
+  width: 60%;
+}
+.img-container {
+  position: relative;
+  float: left;
+  background-color: azure;
+  margin: 20px 20px 0 0;
+  overflow: hidden;
+}
+.img-container:hover {
+  transform: scale(1.1);
+}
+.addCart {
+  padding: 20px;
+}
