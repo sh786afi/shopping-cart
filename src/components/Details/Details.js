@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../../context";
+import "./Details.css";
 class Details extends Component {
   render() {
     return (
@@ -22,17 +23,20 @@ class Details extends Component {
                   <img src={img} className="imageSingle" />
                 </div>
                 <div className="text">
-                  <h2>Model: {title}</h2>
-                  <h4>madeBy: {company}</h4>
-                  <h4>
+                  <h2 style={{ color: "black" }}>Model: {title}</h2>
+                  <br />
+                  <h4>Made By: {company}</h4>
+                  <br />
+                  <h4 style={{ color: "black" }}>
                     <strong>Price: </strong>
                     <span>Rs </span>
                     {price}
                   </h4>
+                  <br />
                   <p>
                     <strong>Some Info About Product :</strong>
                   </p>
-                  <p>{info}</p>
+                  <p className="info">{info}</p>
                   <div>
                     <Link to="/">
                       <button>Back To Product</button>

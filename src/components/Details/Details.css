@@ -1,0 +1,32 @@
+.details {
+  bottom: fixed;
+  height: 95vh;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(126, 213, 111, 0.801),
+      rgba(40, 180, 133, 0.801)
+    ),
+    url(../../images/hero.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+.imageSingle {
+  width: 20%;
+}
+button {
+  padding: 8px;
+  color: grey;
+}
+button:hover {
+  color: green;
+}
+.text {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  margin-left: 30%;
+  color: white;
+  font-weight: 300;
+}
+.info {
+}
