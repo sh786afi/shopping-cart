@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { ProductConsumer } from "../../context";
 import "./Product.css";
 import PropTypes from "prop-types";
-import { ProductConsumer } from "../../context";
+
 class Product extends Component {
   render() {
     const { id, title, img, price, inCart } = this.props.product;
@@ -22,7 +23,10 @@ class Product extends Component {
                   <button
                     className="cart-btn"
                     disabled={inCart ? true : false}
-                    onClick={() => value.addToCart(id)}
+                    onClick={() => {
+                      value.addToCart(id);
+                      value.openModal(id);
+                    }}
                   >
                     {inCart ? (
                       <p className="textInCart" disabled>

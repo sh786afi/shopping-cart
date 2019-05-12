@@ -16,6 +16,7 @@
 button {
   padding: 8px;
   color: grey;
+  width: 20%;
 }
 button:hover {
   color: green;
@@ -27,6 +28,4 @@ button:hover {
   margin-left: 30%;
   color: white;
   font-weight: 300;
-}
-.info {
 }

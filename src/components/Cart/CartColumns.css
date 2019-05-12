@@ -1,0 +1,10 @@
+.column {
+  float: left;
+  width: 16%;
+  padding: 10px;
+  height: 10%;
+  font-weight: bold;
+}
+.row-col {
+  margin: 5%;
+}
